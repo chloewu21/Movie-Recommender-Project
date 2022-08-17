@@ -16,7 +16,8 @@ With so many movies to choose from, it has become harder to find one that suits 
 Binder link (click to launch): https://mybinder.org/v2/gh/chloewu21/Movie-Recommender-Project/HEAD?urlpath=voila%2Frender%2Fmovie_recommender.ipynb
 1. Begin by inputting the title of a film you enjoyed.
 2. Select a genre or release year from the dropdown menus to add additional filters (optional).
-3. The top 10 most similar movies will be displayed below.
+3. The top 10 most similar movies will be displayed below. <br />
+
 To run the Jupyter notebook:
 1. Clone the repository in your local system.
 2. Create a conda environment and install libraries in the [environment.yml](https://github.com/chloewu21/Movie-Recommender-Project/blob/main/environment.yml) file with the command `conda env create -f environment.yml`.
