@@ -6,3 +6,4 @@ unzip -j -d . ml-25m.zip ml-25m/movies.csv
 head -n 1000000 ratings.csv > ratings_2.csv
 mv ratings_2.csv ratings.csv
 rm -f ratings_2.csv
+rm -rf ml-25m.zip
