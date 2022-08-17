@@ -3,4 +3,6 @@ set -e
 wget -q -O ml-25m.zip "https://files.grouplens.org/datasets/movielens/ml-25m.zip"
 unzip -j -d . ml-25m.zip ml-25m/ratings.csv
 unzip -j -d . ml-25m.zip ml-25m/movies.csv
-head -n 1000000 ratings.csv > ratings.csv
+head -n 1000000 ratings.csv > ratings_2.csv
+mv ratings_2.csv ratings.csv
+rm -f ratings_2.csv
