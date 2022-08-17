@@ -1,2 +1,4 @@
 # To ignore:
 .ipynb_checkpoints*
+*.csv
+*.zip
